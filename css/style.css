@@ -1,0 +1,111 @@
+@font-face {
+  font-family: anja-eliane;
+  src: url("../fonts/anja-eliane.ttf");
+}
+
+@font-face {
+  font-family: TTDrugs-Thin;
+  src: url("../fonts/TTDrugs-Thin.otf");
+}
+
+.section {
+  clear: both;
+}
+
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+/*top-panel*/
+.logoSite {
+  width: 265px;
+  float: left;
+  font: 400 48px anja-eliane;
+  text-transform: uppercase;
+  line-height: 0.8;
+  color: #6bcdff;
+}
+
+.topNav {
+  padding: 20px;
+}
+
+.navMenu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 700px;
+}
+
+.navMenu a {
+  font: 400 18px TTDrugs-Thin;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #28a2ef;
+  padding: 5px 20px;
+}
+
+.navMenu a:hover {
+  border-radius: 5px;
+  background-color: #6bcdff;
+  color: #fff;
+}
+
+.loginMenu {
+  display: block;
+  float: right;
+}
+
+.loginMenu a {
+  font: 400 14px TTDrugs-Thin;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4ba5dd;
+  padding: 0 20px;
+}
+
+.loginMenu .keyLogin {
+  border-right: 1px solid #4ba5dd;
+}
+/*footer*/
+.navFooter {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.footer {
+  padding-top: 100px;
+}
+
+.footerMenu a {
+  padding: 5px 20px;
+  font: 700 18px anja-eliane;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #28a2ef;
+}
+
+.socialLinkFooter {
+  padding: 40px 0 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.socialLinkFooter a {
+  text-decoration: none;
+  float: left;
+  margin: 0 7px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}

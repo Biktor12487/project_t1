@@ -1,0 +1,339 @@
+.header {
+  padding-bottom: 20px
+}
+
+.header > .container {
+  background: url("../images/paperBg.png") no-repeat center;
+  background-size: contain;
+  height: 600px;
+}
+
+.header > .container > div {
+  width: 100%;
+}
+
+.header form {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  width: 450px;
+  height: 590px;
+  text-align: center;
+  background: url("../images/copyBookBg.png") no-repeat center;
+  background-size: 100%;
+}
+
+.header form span {
+  display: block;
+  font: 400 14px Arial;
+  text-align: center;
+  color: #b3b3b3;
+  padding: 20px 0 15px;
+}
+
+.header form select {
+  width: 280px;
+  border: 1px solid #ebebeb;
+  font: 400 14px Arial;
+  color: #1f1f1f;
+  padding: 15px 5px;
+}
+
+.keyCalculate {
+  width: 280px;
+  padding: 15px 0;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  font: 400 18px anja-eliane;
+  text-transform: uppercase;
+  background-color: #28a2ef;
+  color: #fff;
+  cursor: pointer;
+}
+
+.keyCalculate:hover {
+  opacity: .9;
+}
+
+.inputPage {
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.inputPage div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  font: 600 26px sans-serif;
+  background-color: #d4d4d4;
+  color: #fff;
+}
+
+.inputPage div:hover {
+  opacity: .9;
+}
+
+.inputPage input {
+  padding: 15px 0px;
+  width: 180px;
+  text-align: center;
+  font: 400 14px Arial;
+  color: #1f1f1f;
+  border: 1px solid #d4d4d4;
+}
+
+.inputDeadline {
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.inputDeadline div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #d4d4d4;
+  color: #fff;
+}
+
+.inputDeadline div img {
+  width: 50%;
+}
+
+.inputDeadline div:hover {
+  opacity: .9;
+}
+
+.inputDeadline input {
+  padding: 15px 0px;
+  width: 230px;
+  text-align: center;
+  font: 400 14px Arial;
+  color: #1f1f1f;
+  border: 1px solid #d4d4d4;
+}
+
+.totalPrice b {
+  font: 400 45px TTDrugs-Thin;
+}
+
+.getYour > .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.getYour > .container > div {
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.sectorGetYour1 .cardsGetYour {
+  float: left;
+  margin: 80px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sectorGetYour1 .cardsGetYour > div {
+  float: left;
+  width: 255px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.sectorGetYour1 .cardsGetYour {
+  float: left;
+}
+
+.sectorGetYour1 .cardsGetYour h3 {
+  font: 400 20px Arial;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.sectorGetYour1 .textGetYor {
+  font: 400 14px Arial;
+  text-align: right;
+}
+
+.sectorGetYour1 .cardsGetYour img {
+  float: right;
+}
+
+.sectorGetYour1 .cardsGetYour span {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  display: block;
+  float: left;
+}
+
+.cardGetYour1 {
+  background-image: url("../images/getYourIcon1.png");
+}
+
+.cardGetYour2 {
+  background-image: url("../images/getYourIcon2.png");
+}
+
+.cardGetYour3 {
+  background-image: url("../images/getYourIcon3.png");
+}
+
+.cardGetYour4 {
+  background-image: url("../images/getYourIcon4.png");
+}
+
+.sectorGetYour3 .cardsGetYour {
+  float: left;
+  margin: 80px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.sectorGetYour3 .cardsGetYour > div {
+  float: left;
+  width: 255px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.sectorGetYour3 .cardsGetYour {
+  float: left;
+}
+
+.sectorGetYour3 .cardsGetYour h3 {
+  font: 400 20px Arial;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.sectorGetYour3 .textGetYor {
+  font: 400 14px Arial;
+  text-align: left;
+}
+
+.sectorGetYour3 .cardsGetYour img {
+  float: right;
+}
+
+.sectorGetYour3 .cardsGetYour span {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  display: block;
+  float: left;
+}
+
+.sectorGetYour2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.getYourTitle {
+  display: block;
+  font: 400 36px TTDrugs-Thin;
+  text-align: center;
+  color: #adacac;
+}
+
+.help {
+  padding: 70px 0;
+}
+
+.help h2 {
+  text-align: center;
+  font: 400 36px TTDrugs-Thin;
+  color: #4b4c4c;
+}
+
+.textHelp {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font: 400 20px Arial;
+  text-align: center;
+  color: #fff;
+  background-color: #28a2ef;
+}
+
+.content > .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.cardsContent {
+  width: 575px;
+  max-width: 50%;
+  padding: 40px;
+  margin: 40px 0px;
+  box-sizing: border-box;
+  float: left;
+  background-image: url("../images/paperPage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardsContent h2 {
+  font: 400 24px TTDrugs-Thin;
+  color: #000;
+}
+
+.cardsContent button {
+  margin-top: 50px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  font: 400 21px TTDrugs-Thin;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #6bcdff;
+  cursor: pointer;
+}
+
+.cardsContent button:hover {
+  opacity: .8;
+}
+
+.textCardContent {
+  max-width: 90%;
+  font: 400 18px Arial;
+}
