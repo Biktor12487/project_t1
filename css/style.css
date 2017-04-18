@@ -1,15 +1,23 @@
 @font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoRegular.ttf");
+}
+@font-face {
   font-family: anja-eliane;
   src: url("../fonts/anja-eliane.ttf");
 }
 
-@font-face {
-  font-family: TTDrugs-Thin;
-  src: url("../fonts/TTDrugs-Thin.otf");
+*{
+  margin: 0;
+  padding: 0;
 }
-
+body{
+  overflow-x: hidden;
+}
 .section {
   clear: both;
+  float: left;
+  width: 100%;
 }
 
 .container {
@@ -27,7 +35,8 @@
 }
 
 .topNav {
-  padding: 20px;
+  padding: 20px 0 0 0;
+  box-sizing: border-box;
 }
 
 .navMenu {
@@ -39,7 +48,7 @@
 }
 
 .navMenu a {
-  font: 400 18px TTDrugs-Thin;
+  font: 400 18px Roboto;
   text-transform: uppercase;
   text-decoration: none;
   color: #28a2ef;
@@ -58,7 +67,7 @@
 }
 
 .loginMenu a {
-  font: 400 14px TTDrugs-Thin;
+  font: 400 14px Roboto;
   text-transform: uppercase;
   text-decoration: none;
   color: #4ba5dd;
@@ -83,7 +92,7 @@
 
 .footerMenu a {
   padding: 5px 20px;
-  font: 700 18px anja-eliane;
+  font: 700 18px Roboto;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -108,4 +117,154 @@
   justify-content: space-around;
   -ms-flex-align: center;
   align-items: center;
+}
+#burgerMenu
+{
+  width: 33px;
+  height: 33px;
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+}
+#burgerMenu[data-visaby="false"] .middleSpan
+{
+  visibility: hidden;
+}
+#burgerMenu[data-visaby="false"] .topSpan
+{
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#burgerMenu[data-visaby="false"] span
+{
+  position: absolute;
+  background-color: grey;
+  width: 90%;
+  height: 3px;
+  border-radius: 1px;
+  display: block;
+  margin: 7px auto;
+}
+#burgerMenu[data-visaby="false"] .bottomSpan
+{
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition-duration: .2s ;
+  -moz-transition-duration: .2s ;
+  -o-transition-duration: .2s ;
+  -ms-transition-duration: .2s ;
+  transition-duration: .2s ;
+}
+#burgerMenu span
+{
+  background-color: grey;
+  width: 90%;
+  height: 3px;
+  border-radius: 1px;
+  display: block;
+  margin: 7px auto;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px )
+{
+  .container
+  {
+    width:100%;
+    padding:0 10px 0 10px;
+    box-sizing: border-box;
+  }
+  .loginMenu 
+  {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px )
+{
+  .container
+  {
+    width:100%;
+    padding:0 10px 0 10px;
+    box-sizing: border-box;
+  }
+  .navMenu
+  {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0 10px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,.8);
+  }
+  .navMenu a
+  {
+    padding-top: 2px;
+    margin-top: 1px;
+  }
+  .logoSite
+  {
+    margin-top: 30px;
+    width: 180px;
+    font-size: 32px;
+  }
+  .loginMenu
+  {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px)
+{
+  .container
+  {
+    width:100%;
+    padding:0 10px 0 10px;
+    box-sizing: border-box;
+  }
+  .navMenu
+  {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .navMenu nav
+  {
+    width: 100%;
+  }
+  .navMenu a
+  {
+    width: 100%;
+    float: left;
+    clear: both;
+    text-align: center;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #6bcdff;
+    display: none;
+  }
+  #burgerMenu
+  {
+      display: block;
+      float: right;
+      right: 5px;
+      top:5px;
+  }
+  .footerMenu nav
+  {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .loginMenu
+  {
+    margin-top: 30px;
+  }
 }

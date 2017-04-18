@@ -1,5 +1,4 @@
 .header {
-  padding-bottom: 20px
 }
 
 .header > .container {
@@ -25,7 +24,7 @@
 
 .header form span {
   display: block;
-  font: 400 14px Arial;
+  font: 400 14px Roboto;
   text-align: center;
   color: #b3b3b3;
   padding: 20px 0 15px;
@@ -34,7 +33,7 @@
 .header form select {
   width: 280px;
   border: 1px solid #ebebeb;
-  font: 400 14px Arial;
+  font: 400 14px Roboto;
   color: #1f1f1f;
   padding: 15px 5px;
 }
@@ -45,7 +44,7 @@
   margin-top: 15px;
   border-radius: 5px;
   border: none;
-  font: 400 18px anja-eliane;
+  font: 400 18px Roboto;
   text-transform: uppercase;
   background-color: #28a2ef;
   color: #fff;
@@ -87,7 +86,7 @@
   padding: 15px 0px;
   width: 180px;
   text-align: center;
-  font: 400 14px Arial;
+  font: 400 14px Roboto;
   color: #1f1f1f;
   border: 1px solid #d4d4d4;
 }
@@ -126,13 +125,13 @@
   padding: 15px 0px;
   width: 230px;
   text-align: center;
-  font: 400 14px Arial;
+  font: 400 14px Roboto;
   color: #1f1f1f;
   border: 1px solid #d4d4d4;
 }
 
 .totalPrice b {
-  font: 400 45px TTDrugs-Thin;
+  font: 400 45px Roboto;
 }
 
 .getYour > .container {
@@ -170,13 +169,14 @@
 }
 
 .sectorGetYour1 .cardsGetYour h3 {
-  font: 400 20px Arial;
+  padding-bottom: 20px;
+  font: 400 20px Roboto;
   text-transform: uppercase;
   text-align: right;
 }
 
 .sectorGetYour1 .textGetYor {
-  font: 400 14px Arial;
+  font: 400 14px Roboto;
   text-align: right;
 }
 
@@ -232,13 +232,14 @@
 }
 
 .sectorGetYour3 .cardsGetYour h3 {
-  font: 400 20px Arial;
+  font: 400 20px Roboto;
+  padding-bottom: 30px;
   text-transform: uppercase;
   text-align: left;
 }
 
 .sectorGetYour3 .textGetYor {
-  font: 400 14px Arial;
+  font: 400 14px Roboto;
   text-align: left;
 }
 
@@ -264,7 +265,7 @@
 
 .getYourTitle {
   display: block;
-  font: 400 36px TTDrugs-Thin;
+  font: 400 36px Roboto;
   text-align: center;
   color: #adacac;
 }
@@ -275,7 +276,8 @@
 
 .help h2 {
   text-align: center;
-  font: 400 36px TTDrugs-Thin;
+  padding-bottom: 30px;
+  font: 400 36px Roboto;
   color: #4b4c4c;
 }
 
@@ -285,7 +287,7 @@
   padding: 40px 40px;
   border-radius: 10px;
   box-sizing: border-box;
-  font: 400 20px Arial;
+  font: 400 20px Roboto;
   text-align: center;
   color: #fff;
   background-color: #28a2ef;
@@ -303,7 +305,8 @@
 .cardsContent {
   width: 575px;
   max-width: 50%;
-  padding: 40px;
+  min-height: 391px;
+  padding:43px;
   margin: 40px 0px;
   box-sizing: border-box;
   float: left;
@@ -311,9 +314,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .cardsContent h2 {
-  font: 400 24px TTDrugs-Thin;
+  padding-bottom: 20px;
+  font: 400 24px Roboto;
   color: #000;
 }
 
@@ -322,7 +325,7 @@
   padding: 10px 40px;
   border-radius: 5px;
   border: none;
-  font: 400 21px TTDrugs-Thin;
+  font: 400 21px Roboto;
   text-transform: uppercase;
   color: #fff;
   background-color: #6bcdff;
@@ -335,5 +338,256 @@
 
 .textCardContent {
   max-width: 90%;
-  font: 400 18px Arial;
+  font: 400 18px Roboto;
+}
+
+.recall {
+  padding: 40px 0;
+}
+
+.cardsRecall {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  float: left;
+  text-align: center;
+}
+
+.avatarRecall {
+  width: 175px;
+  height: 175px;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #ececec;
+}
+
+.cardRecall1 .avatarRecall {
+  background: url("../images/photoRecall1.png") no-repeat center;
+  background-size: cover;
+}
+
+.cardRecall2 .avatarRecall {
+  background: url("../images/photoRecall2.png") no-repeat center;
+  background-size: cover;
+}
+
+.cardRecall3 .avatarRecall {
+  background: url("../images/photoRecall3.png") no-repeat center;
+  background-size: cover;
+}
+
+.cardsRecall h4 {
+  padding:35px 0 15px;
+  font: 400 21px Roboto;
+  text-transform: uppercase;
+}
+
+.cardsRecall .textRecallCard {
+  font: 400 17px Roboto;
+  color: #8e8e8e;
+}
+
+.recall h1 {
+  font: 400 50px Roboto;
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.recall h3 {
+  font: 400 21px Roboto;
+  padding: 10px 0;
+  text-align: center;
+  color: #6bcdff;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px )
+{
+  .sectorGetYour2 
+  {
+    width: 33% !important;
+  }
+  .getYourTitle
+  {
+    font-size: 32px;
+  }
+  .sectorGetYour3 .cardsGetYour > div,.sectorGetYour1 .cardsGetYour > div
+  {
+    width: 100%;
+  }
+  .sectorGetYour3 .cardsGetYour span ,  .sectorGetYour1 .cardsGetYour span
+  {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px )
+{
+  .sectorGetYour2 
+  {
+    width: 33% !important;
+  }
+  .getYourTitle
+  {
+    font-size: 32px;
+  }
+  .sectorGetYour3 .cardsGetYour > div,.sectorGetYour1 .cardsGetYour > div
+  {
+    width: 100%;
+  }
+  .sectorGetYour3 .cardsGetYour span ,  .sectorGetYour1 .cardsGetYour span
+  {
+    display: none;
+  }
+  .cardsContent
+  {
+    width: 90%;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 768px)
+{
+  .sectorGetYour2 
+  {
+    width: 100% !important;
+  }
+  .footer
+  {
+    padding-top: 50px;
+  }
+  .calculate
+  {
+    max-width: 100%;
+  }
+  .header form select 
+  {
+    padding:7px 3px;
+    max-width: 90%;
+  }
+  .inputPage div
+  {
+    height: 30px;
+    width: 30px;
+  }
+  .inputPage input
+  {
+    padding:0;
+    width: 217px;
+  }
+  .inputDeadline input
+  {
+    padding: 0;
+    width: 247px;
+  }
+  .inputDeadline div
+  {
+    width: 30px;
+    height: 30px;
+  }
+  .header form span
+  {
+    padding: 10px 5px;
+  }
+  .header form
+  {
+    padding-top: 160px;
+  }
+   .getYour > .container > div
+  {
+    width: 100%;
+  }
+  .getYour > .container
+  {
+    display: block;
+  }
+  .sectorGetYour1 .cardsGetYour ,.sectorGetYour3 .cardsGetYour
+  {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+  }
+  .sectorGetYour1 .cardsGetYour span ,  .sectorGetYour3 .cardsGetYour span
+  {
+    display: none;
+  }
+  .sectorGetYour1 .cardsGetYour h3 , .sectorGetYour3 .cardsGetYour h3
+  {
+    font-size: 26px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .sectorGetYour1 .textGetYor ,.sectorGetYour3 .textGetYor
+  {
+    font-size: 18px;
+    text-align: center;
+  }
+  .sectorGetYour1 .cardsGetYour > div ,.sectorGetYour3 .cardsGetYour > div
+  {
+    width: 100%;
+  }
+  .getYour
+  {
+    padding-top: 200px;
+  }
+  .getYourTitle
+  {
+    width: 100%;
+    margin: 40px auto;
+  }
+  .textHelp
+  {
+    width: 100%;
+    padding: 2% 3%;
+  }
+  .cardsContent
+  {
+    width: 90%;
+    min-width: 300;
+    max-width: 100%;
+    background-image: none;
+    background-color: rgb(255,255,248);
+    box-shadow: 0 0 25px rgba(0,0,0,.2)
+  }
+  .recall h1
+  {
+    font-size: 30px;
+  }
+  .recall h3
+  {
+    font-size: 18px;
+  }
+  .help h2
+  {
+    font-size: 30px;
+  }
+  .sectorGetYour3 .cardsGetYour > div
+  {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 670px)
+{
+  .cardsRecall
+  {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .readMore
+  {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 375px)
+{
+  .header form
+  {
+    padding-top: 30px;
+    margin-top: 30px;
+    height: initial;
+    background-image: none;
+    background-color: rgba(255,255,255,.8);
+    box-shadow:  0 0 4px rgba(0,0,0,.3);
+  }
+   .getYour
+  {
+    padding-top: 0px;
+  }
 }

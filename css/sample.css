@@ -1,0 +1,174 @@
+.headerSample {
+  padding-bottom: 100px;
+}
+
+.headerSample h1 {
+  margin: 0 0 40px 0;
+  text-align: center;
+  font: 400 55px Roboto;
+}
+
+.textHeader {
+  width: 70%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 45px 60px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: 400 21px Roboto;
+  text-align: center;
+  color: #fff;
+  background-color: #28a2ef;
+}
+
+.sampleContent > .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.cardsSample {
+  padding: 60px 40px;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+
+.cardsSample ul {
+  width: 100%;
+  display: block;
+  float: left;
+  list-style: none;
+}
+
+.cardsSample img {
+  height: 100px;
+}
+
+.cardsSample ul li {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 4px 0;
+}
+
+.posName {
+  display: block;
+  float: left;
+  font: 400 14px Roboto;
+}
+
+.posValue {
+  display: block;
+  float: right;
+  font: 400 14px Roboto;
+}
+
+.cardsSample h3 {
+  margin: 40px 0 5px 0;
+  font: 400 21px Roboto;
+}
+
+.viewSample {
+  margin-top: 20px;
+  display: block;
+  float: left;
+  width: 100%;
+  font: 400 18px Roboto;
+  cursor: pointer;
+  color: #656565;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px )
+{
+
+}
+@media screen and (max-width: 992px) and (min-width: 768px )
+{
+  .cardsSample 
+  {
+    width: 33%;
+    margin-top: 30px;
+    padding-top: 40px;
+    min-width: 275px;
+  }
+  .headerSample
+  {
+    padding-bottom: 10px;
+  }
+  .cardsSample
+  {
+    padding-top: 0;
+  }
+  .footer
+  {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 600px)
+{
+  .cardsSample 
+  {
+    width: 50%;
+    margin-top: 30px;
+    padding-top: 40px;
+  }
+   .textHeader
+  {
+    width: 100%;
+    padding: 2% 4%;
+    font-size: 18px;
+  }
+  .headerSample h1
+  {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+   .cardsSample
+  {
+    padding-top: 0;
+  }
+  .footer
+  {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .cardsSample 
+  {
+    width: 90%;
+    margin-top: 0px;
+    padding-top: 40px;
+    max-width: 400px;
+  }
+  .textHeader
+  {
+    width: 100%;
+    padding: 2% 4%;
+    font-size: 18px;
+  }
+  .headerSample h1
+  {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+   .cardsSample
+  {
+    padding-top: 0;
+  }
+  .footer
+  {
+    padding-top: 40px;
+  }
+}

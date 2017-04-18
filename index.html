@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Home</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home.css">  
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
   </head>
   <body>
+  <!-- begin top panel  -->
     <div class="section topNav">
        <div class="container">
          <div class="logoSite">
@@ -16,10 +18,16 @@
          </div>
          <div class="navMenu">
            <nav>
-             <a href="#">ORDER</a>
-             <a href="#">PRICE</a>
-             <a href="#">SAMPLES</a>
-             <a href="#">faq</a>
+            <div id="burgerMenu" data-visaby="true">
+              <span class="topSpan"></span>
+              <span class="middleSpan"></span>
+              <span class="bottomSpan"></span>
+            </div>
+             <a>home</a>
+             <a href="pages/order.html">ORDER</a>
+             <a href="pages/price.html">PRICE</a>
+             <a href="pages/sample.html">SAMPLES</a>
+             <a href="pages/faq.html">faq</a>
            </nav>
          </div>
          <nav class="loginMenu">
@@ -27,6 +35,8 @@
          </nav>
        </div>
     </div>
+    <!-- endl top panel -->
+    <!-- begin header -->
     <div class="section header">
       <div class="container">
         <div>
@@ -38,8 +48,8 @@
               <option value="">Essay</option>
             </select>
             <span>Pages</span>
-            <div class="inputPage">
-              <div class="minusPage">-</div><input type="text" value="1"><div class="plusPage">+</div>
+            <div class="inputPage plusMinus">
+              <div class="minusPage" data-key="minus">-</div><input type="text" value="1"><div class="plusPage " data-key="plus">+</div>
             </div>
             <span>Academic level</span>
             <select name="" id="">
@@ -49,7 +59,7 @@
             </select>
             <span>Deadline</span>
             <div class="inputDeadline">
-              <input type="text" ><div class="iconCalendar"><img src="images/calendarInputIcon.png" alt=""></div>
+              <input type="text" id="datepicker"><div class="iconCalendar"><img src="images/calendarInputIcon.png" alt=""></div>
             </div>
             <div class="totalPrice">
                 <span>Total price: </span>
@@ -60,6 +70,8 @@
         </div>
       </div>
     </div>
+    <!-- endl header -->
+    <!-- begin getYor -->
     <div class="section getYour">
       <div class="container">
           <div class="sectorGetYour1">
@@ -113,6 +125,8 @@
           </div>
       </div>
     </div>
+    <!-- endl getYour -->
+    <!-- begin help -->
     <div class="section help">
       <div class="container">
           <h2>
@@ -123,8 +137,11 @@
           </div>
       </div>
     </div>
+    <!-- endl help -->
+    <!-- begin content cards -->
     <div class="section content">
       <div class="container">
+        <!-- //////*/////// -->
         <div class="cardsContent cardContent1">
           <h2>WELCOME TO YOUR <br>ONLINE ESSAY WRITER</h2>
           <div class="textCardContent">
@@ -132,6 +149,7 @@
           </div>
           <button class="readMore">More</button>
         </div>
+          <!-- //////*/////// -->
         <div class="cardsContent cardContent2">
           <h2>IMPROVE YOUR GRADES  – USE OUR <br> ESSAY  WRITING SERVICE</h2>
           <div class="textCardContent">
@@ -139,6 +157,7 @@
           </div>
           <button class="readMore">more</button>
         </div>
+          <!-- //////*/////// -->
         <div class="cardsContent cardContent3">
           <h2>WELCOME TO YOUR ONLINE ESSAY WRITER</h2>
           <div class="textCardContent">
@@ -146,6 +165,7 @@
           </div>
           <button class="readMore">More</button>
         </div>
+          <!-- //////*/////// -->
         <div class="cardsContent cardContent4">
           <h2>USE OUR AMERICAN ESSAY WRITER <br> WRITING HELP</h2>
           <div class="textCardContent">
@@ -155,15 +175,51 @@
         </div>
       </div>
     </div>
+    <!-- endl content cards -->
+    <!-- begin recall  -->
+    <div class="section recall">
+      <div class="container">
+          <h1>TESTIMONIALS</h1>
+          <h3>PEOPLE TALKING ABOUT US</h3>
+          <!-- //////*/////// -->
+          <div class="cardsRecall cardRecall1">
+            <div class="avatarRecall"></div>
+            <h4>harry, usa</h4>
+            <div class="textRecallCard">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta massa sit amet magna luctus euismod. Mauris non malesuada nunc. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta massa sit amet magna luctus euismod. 
+            </div>
+          </div>
+          <!-- //////*/////// -->
+          <div class="cardsRecall cardRecall2">
+            <div class="avatarRecall"></div>
+            <h4>Jennifer, UK</h4>
+            <div class="textRecallCard">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta massa sit amet magna luctus euismod. Mauris non malesuada nunc. Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+          <!-- //////*/////// -->
+          <div class="cardsRecall cardRecall3">
+            <div class="avatarRecall"></div>
+            <h4>ben, australia</h4>
+            <div class="textRecallCard">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta massa sit amet magna luctus euismod. Mauris non malesuada nunc. Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+          <!-- //////*/////// -->
+      </div>
+    </div>
+    <!-- endl recall -->
+    <!-- begin footer  -->
     <div class="section footer">
        <div class="container">
           <div class="navFooter">
               <div class="footerMenu">
                   <nav>
-                    <a href="">ORDER</a>
-                    <a href="">PRICE</a>
-                    <a href="">SAMPLES</a>
-                    <a href="">faq</a>
+                      <a>home</a>
+                     <a href="pages/order.html">ORDER</a>
+                     <a href="pages/price.html">PRICE</a>
+                     <a href="pages/sample.html">SAMPLES</a>
+                     <a href="pages/faq.html">faq</a>
                   </nav>
               </div>
           </div>
@@ -185,6 +241,10 @@
           </div>
        </div>
     </div>
-    <script src="js/common.js"></script>
+    <!-- endl footer -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>

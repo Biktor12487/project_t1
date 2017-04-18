@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Order</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+  </head>
+  <body>
+      <!-- begin top panel  -->
+      <div class="section topNav">
+         <div class="container">
+           <div class="logoSite">
+              writing your essay
+           </div>
+           <div class="navMenu">
+             <nav>
+              <div id="burgerMenu" data-visaby="true">
+                <span class="topSpan"></span>
+                <span class="middleSpan"></span>
+                <span class="bottomSpan"></span>
+              </div>
+               <a href="../index.html">home</a>
+               <a href="order.html">order</a>
+               <a href="price.html">PRICE</a>
+               <a href="sample.html">SAMPLES</a>
+               <a href="faq.html">faq</a>
+             </nav>
+           </div>
+           <nav class="loginMenu">
+             <a href="#"" class="keyLogin">LOGIN</a><a href="#" class="keyRegister">REGISTER</a>
+           </nav>
+         </div>
+      </div>
+      <!-- endl top panel -->
+      <!--  -->
+    <div class="section placeOrder">
+      <div class="container">
+        <h1>PLACE AN ORDER</h1>
+        <!-- leftSector -->
+        <div class="leftSector">
+            <form class="plateForm">
+              <span>Type of work</span>
+              <select name="" id="">
+                <option value="">One </option>
+                <option value="">Two</option>
+                <option value="">Three</option>
+              </select>
+              <span>Academic level</span>
+              <select name="" id="">
+                <option value="">One </option>
+                <option value="">Two</option>
+                <option value="">Three</option>        
+              </select>
+              <span>Type of paper </span>
+              <select name="" id="">
+                <option value="">One </option>
+                <option value="">Two</option>
+                <option value="">Three</option>                
+              </select>
+              <span>Type of paper</span>
+              <select name="" id="">
+                <option value="">One </option>
+                <option value="">Two</option>
+                <option value="">Three</option>
+              </select>
+              <span>Subject</span>
+              <select name="" id="">
+                <option value="">One </option>
+                <option value="">Two</option>
+                <option value="">Three</option>
+              </select>
+              <span>Type of paper</span>
+              <input type="text" class="titleInput">
+              <span>Type of paper</span>
+              <textarea ></textarea>
+            </form>
+        </div>
+        <!-- endl -->
+        <!-- right Sector -->
+        <div class="rightSector">
+            <form class="plateCalculate">
+              <div class="rowForm countInputs">
+                <div class="col plusMinus">
+                  <div class="minusCount" data-key="minus">-</div>
+                    <input type="text" name="valOne" value="1" class="countOneInput">
+                  <div class="plusCount" data-key="plus">+</div>
+                </div>
+                <div class="col plusMinus">
+                  <div class="minusCount" data-key="minus">-</div>
+                    <input type="text" name="valTwo" value="1" class="countTwoInput">
+                  <div class="plusCount" data-key="plus">+</div>
+                </div>
+              </div>
+              <div class="rowForm spacedInputs">
+                <div class="col">
+                  <div class="textInput">Single spaced</div>
+                  <div class="iconInput chekedRadioButton">
+                    <img src="../images/goodLabeIconCalculate.png" alt="">
+                    <input type="radio" name="spaced" class="radioButton" value="1" checked="true">
+                  </div>
+                  <noscript> 
+                  <input type="radio" name="spaced" value="1">Single spaced
+                  </noscript>
+                </div>
+                <div class="col">
+                  <div class="textInput">Double spaced</div>
+                  <div class="iconInput chekedRadioButton" dis="true">
+                    <input type="radio" name="spaced" class="radioButton" value="2">
+                    <img src="../images/goodLabeIconCalculate.png" alt="">
+                  </div>
+                  <noscript> 
+                  <input type="radio" name="spaced" value="2"> Double spaced
+                  </noscript>
+                </div>
+              </div>
+              <div class="rowForm fileAndDateInputs">
+                  <div class="col">
+                    <div class="textInput">Add fille</div>
+                    <div class="keyFile">
+                      <img src="../images/fileDownloadCalculate.png"  alt="">
+                      <input type="file" name="fille">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <input type="text" name="date" placeholder="22.11.2017" id="datepicker" class="inputDateChoose">
+                    <div class="iconInput"><img src="../images/calendarInputIcon.png" alt=""></div>
+                  </div>
+              </div>
+              <div class="rowGo">
+                <div class="col">
+                  <input type="text" name="code" class="inputDiscountCode" placeholder="Select discount code">
+                  <input type="submit" value="" class="keyGoCalculate">
+                  </button>
+                </div>
+              </div>
+              <div class="totalPrice">$15.00</div>
+              <div class="infoTotalPrice">1:06 PM, THURSDAY, 3rd OF APRIL, 2017</div>
+            </form>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="section openBookForms">
+      <div class="container">
+          <div class="bookHolste">
+              <div class="leftPaper">
+                <h1>I AM A NEW CUSTOMER</h1>
+                <form action="">
+                  <div class="rowBook">
+                     <span class="labe">First Name</span><input type="text" class="fName inputPlaceLeftPaper" placeholder="Enter your first name">
+                  </div>
+                  <div class="rowBook">
+                     <span class="labe">Last Name</span><input type="text" class="lName inputPlaceLeftPaper" placeholder="Enter your last name">
+                  </div>
+                  <div class="rowBook">
+                     <span class="labe">Email</span><input type="email" class="emailLeft inputPlaceLeftPaper" placeholder="example@example.com">
+                  </div>
+                  <div class="rowBook">
+                     <span class="labe">Password</span><input type="password" class="fName inputPlaceLeftPaper" placeholder="Create password">
+                  </div>
+                  <div class="rowBook">
+                     <span class="labe">Repeat password</span><input type="password" class="fName inputPlaceLeftPaper" placeholder="Confirm password">
+                  </div>
+                  <div class="rowBook rowBookAccept">
+                    <input type="checkbox" required>
+                    <span>
+                       I accept the Terms of Use and Privacy and Cookies Policy.
+                    </span>
+                  </div>
+                  <div>
+                      <input type="submit" class="keyCreateNewCustomer" value="CHECK OUT NOW!">
+                  </div>
+                </form>
+              </div>
+              <div class="rightPaper">
+                  <h1>I HAVE AN ACCOUNT</h1>
+                  <form action="">
+                    <div class="rowBook">
+                      <span class="labe">Email</span>
+                      <input type="text" class="inputPlaceRightPaper" placeholder="Enter your email">
+                    </div>
+                    <div class="rowBook">
+                      <span class="labe">Password</span>
+                      <input type="text" class="inputPlaceRightPaper" placeholder="Enter your password">
+                    </div>
+                    <div class="rowKeyLoginMe">
+                      <input type="submit" class="keyLoginMe" value="CHECK OUT NOW!">
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!--  -->
+     <!-- begin footer  -->
+      <div class="section footer">
+         <div class="container">
+            <div class="navFooter">
+                <div class="footerMenu">
+                    <nav>
+                       <a href="../index.html">home</a>
+                         <a href="order.html">order</a>
+                         <a href="price.html">PRICE</a>
+                         <a href="sample.html">SAMPLES</a>
+                         <a href="faq.html">faq</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="socialLinkFooter">
+                <div>
+                  <a href="">
+                    <img src="../images/googlePlusIcon.png" alt="">
+                  </a>
+                  <a href="">
+                    <img src="../images/twiterIcon.png" alt="">
+                  </a>
+                  <a href="">
+                    <img src="../images/faceBookIcon.png" alt="">
+                  </a>
+                  <a href="">
+                    <img src="../images/shareIcon.png" alt="">
+                  </a>
+                </div>
+            </div>
+         </div>
+      </div>
+      <!-- endl footer -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/order.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+.faq {
+  padding: 20px 0 60px;
+}
+
+.faq h1 {
+  font: 400 50px Roboto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.textFaqLabe {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  padding: 45px 65px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: 400 21px Roboto;
+  text-align: center;
+  color: #fff;
+  background-color: #28a2ef;
+}
+
+.askFaq > .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.askCards {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 20px;
+  float: left;
+  cursor: pointer;
+}
+
+.askCards h3 {
+  font: 400 21px Roboto;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.textAskCard {
+  height: initial;
+  font: 400 16px Roboto;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.askCards[data-show] h3 {
+  color: #28a2ef;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px )
+{
+
+}
+@media screen and (max-width: 992px) and (min-width: 768px )
+{
+  
+}
+@media screen and (max-width: 768px)
+{
+  .textFaqLabe
+  {
+    width: 95%;
+    padding: 2% 2%;
+  }
+  .askCards
+  {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+  .footer
+  {
+    padding-top: 50px;
+  }
+}

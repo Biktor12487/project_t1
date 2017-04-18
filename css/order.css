@@ -1,0 +1,721 @@
+
+.placeOrder h1 {
+  font: 400 40px Roboto;
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.leftSector {
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 65px;
+}
+
+.leftSector .plateForm {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 60px 70px;
+  float: left;
+  background-color: #28a2ef;
+}
+
+.plateForm span {
+  display: block;
+  text-align: center;
+  font: 400 18px Roboto;
+  color: #fff;
+  margin: 10px 0 5px;
+}
+
+.plateForm select, .plateForm .titleInput, .plateForm textarea {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  border: none;
+  padding: 3px 5px;
+  font: 400 18px Roboto;
+}
+
+.plateForm textarea {
+  height: 130px;
+  resize: none;
+}
+
+.rightSector {
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 45px;
+}
+
+.plateCalculate {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 60px 70px;
+  float: left;
+}
+
+.plateCalculate .rowForm, .rowGo {
+  width: 100%;
+  margin: 40px 0;
+  float: left;
+}
+
+.plateCalculate .rowForm .col {
+  float: left;
+  width: 40%;
+  margin: 0 5%;
+}
+
+.countInputs input {
+  height: 40px;
+  float: left;
+  width: 74px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  font: 400 16px Roboto;
+}
+
+.countInputs .col div {
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font: 600 21px Tahoma;
+  cursor: pointer;
+  background-color: #28a2ef;
+  color: #fff;
+   display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.countInputs .col div span
+{
+  box-sizing: border-box;
+}
+.countInputs .col div:hover {
+  opacity: .8;
+}
+
+.spacedInputs .textInput {
+  float: left;
+  height: 40px;
+  width: 112px;
+  padding: 10px 0 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  border: 1px solid #c9c9c9;
+  border-right: none;
+  font: 400 14px Roboto;
+}
+
+.spacedInputs .iconInput {
+  float: left;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font: 600 21px Tahoma;
+  cursor: pointer;
+  background-color: #28a2ef;
+  color: #fff;  
+  
+}
+.spacedInputs .iconInput[dis="true"]
+{
+  background-color: grey;
+}
+.spacedInputs .iconInput img {
+  width: 20px;
+  display: inline-block;  
+}
+
+.spacedInputs .col div:hover {
+  opacity: .8;
+}
+
+.fileAndDateInputs .textInput, .fileAndDateInputs .inputDateChoose {
+  float: left;
+  width: 107px;
+  height: 28px;
+  padding: 10px 0 0px 5px;
+  text-align: center;
+  border: none;
+  border: 1px solid #c9c9c9;
+  border-right: none;
+  font: 400 14px Roboto;
+}
+
+.fileAndDateInputs .keyFile input {
+  opacity: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+
+.fileAndDateInputs .keyFile, .fileAndDateInputs .iconInput {
+  position: relative;
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+   display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font: 600 21px Tahoma;
+  cursor: pointer;
+  background-color: #28a2ef;
+  color: #fff;
+}
+
+.fileAndDateInputs .keyFile img, .fileAndDateInputs .iconInput img {
+  width: 20px;
+}
+
+.fileAndDateInputs .keyFile:hover, .fileAndDateInputs .iconInput:hover {
+  opacity: .8;
+}
+
+.rowGo .col {
+  width: 100%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.rowGo .inputDiscountCode {
+  float: left;
+  width: 45%;
+  height: 40px;
+  margin-left: 5%;
+  padding: 5px 0 5px 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  border: none;
+  border: 1px solid #c9c9c9;
+  border-right: none;
+  font: 400 14px Roboto;
+}
+
+.rowGo .keyGoCalculate {
+  border: none;
+  float: left;
+  width: 45%;
+  height: 40px;
+  margin-right: 5%;
+  text-align: center;
+  font: 600 21px Tahoma;
+  cursor: pointer;
+  color: #fff;
+  background: #28a2ef url("../images/goodLabeIconCalculate.png") center no-repeat;
+  
+}
+
+.rowGo .keyGoCalculate img {
+  width: 20px;
+}
+
+.plateCalculate .totalPrice {
+  width: 100%;
+  margin-bottom: 40px;
+  float: left;
+  font: 500 60px Roboto;
+  text-align: center;
+}
+
+.plateCalculate .infoTotalPrice {
+  width: 100%;
+  float: left;
+  font: 400 16px Roboto;
+  text-align: center;
+}
+
+.bookHolste {
+  width: 100%;
+  float: left;
+  padding: 40px 0 59px 0;
+  background: url("../images/bgOpenBookSample.png") center no-repeat;
+  background-size: cover;
+}
+
+.leftPaper {
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.leftPaper h1 {
+  font: 400 30px Roboto;
+  text-align: center;
+  margin-bottom: 63px;
+}
+
+.leftPaper .rowBook {
+  width: 100%;
+  float: left;
+  margin: 30px 0 3px 0;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 70px;
+}
+
+.leftPaper .rowBook .labe {
+  width: 35%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+  font: 600 16px Roboto;
+}
+
+.leftPaper .rowBookAccept {
+  font: 400 16px Roboto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.leftPaper .rowBookAccept span {
+  padding-left: 10px;
+}
+
+.inputDateChoose 
+{
+  padding: 3px 0  7px 5px !important;
+}
+.inputPlaceLeftPaper {
+  width: 65%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 4px 5px;
+  float: left;
+  font: 400 16px Roboto;
+  color: #363636;
+  border: none;
+  border-bottom: 1px solid #989898;
+}
+input[type=radio]:checked {
+}
+.keyCreateNewCustomer {
+  margin: 0 auto;
+  padding: 5px 0 10px;
+  display: block;
+  width: 83%;
+  border: none;
+  background-color: #6bcdff;
+  color: #fff;
+  font: 400 30px Roboto;
+  cursor: pointer;
+}
+
+.rightPaper {
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+.rightPaper h1 {
+  font: 400 30px Roboto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.rightPaper .rowBook {
+  width: 100%;
+  float: left;
+  margin: 60px 0 3px 0;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 50px;
+}
+
+.rightPaper .rowBook .labe {
+  width: 35%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+  font: 600 16px Roboto;
+}
+
+.inputPlaceRightPaper {
+  width: 65%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 4px 5px;
+  float: left;
+  font: 400 16px Roboto;
+  color: #363636;
+  border: none;
+  border-bottom: 1px solid #989898;
+}
+.radioButton
+{
+  display: none;
+}
+.keyLoginMe {
+  margin: 0 auto;
+  padding: 5px 0 10px;
+  display: block;
+  width: 83%;
+  border: none;
+  background-color: #6bcdff;
+  color: #fff;
+  font: 400 30px Roboto;
+  cursor: pointer;
+}
+
+.rowKeyLoginMe {
+  margin-top: 184px;
+  float: left;
+  width: 100%;
+}
+.openBookForms{
+  padding-top: 80px;
+}
+
+.rowBook input
+{
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px )
+{
+  .plateCalculate
+  {
+    padding: 15px 0 70px;
+  }
+  .bookHolste
+  {
+    background-size: contain;
+  }
+  .leftPaper h1 , .rightPaper h1
+  {
+    height: 21px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+  }
+  .leftPaper .rowBook .labe , .rightPaper .rowBook .labe
+  {
+    padding-top: 5px;
+    font-size: 14px;
+    width: 40%;
+  }
+  .inputPlaceLeftPaper ,  .inputPlaceRightPaper
+  {
+    font-size: 14px;
+    width: 60%;
+  }
+  .leftPaper .rowBookAccept span
+  {
+    font-size: 12px;
+  }
+  .leftPaper .rowBook
+  {
+    margin-top: 10px;
+  }
+  .rightPaper .rowBook
+  {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px )
+{
+  .leftSector
+  {
+    width: 60%;
+    margin: 0 auto;
+    float: none;
+    padding-right: 0;
+  }
+  .rightSector
+  {
+    
+    width: 60%;
+    margin: 0 auto;
+    float: none;
+    padding-right: 0;
+    padding-left: 0;  
+  }
+  .plateCalculate,.plateForm
+  {
+    width: 100%;
+    padding:15px 0 70px 0;
+  }
+   .bookHolste
+  {
+    background-image: none;
+    background-color: #fff;
+  }
+  .leftPaper
+  {
+    width: 80%;
+    margin:20px 10%;
+    display: inline-block;
+    padding: 20px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.2)
+  }
+  .rightPaper
+  {
+    width: 80%;
+    margin:20px 10%;
+    display: inline-block;
+    padding: 20px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.2)
+  }
+  .leftPaper h1 , .rightPaper h1
+  {
+    height: 21px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  .leftPaper .rowBook .labe , .rightPaper .rowBook .labe
+  {
+    padding-top: 5px;
+    font-size: 14px;
+    width: 40%;
+  }
+  .inputPlaceLeftPaper ,  .inputPlaceRightPaper
+  {
+    font-size: 14px;
+    width: 60%;
+  }
+  .leftPaper .rowBookAccept span
+  {
+    font-size: 12px;
+  }
+  .leftPaper .rowBook
+  {
+    margin-top: 10px;
+  }
+  .rightPaper .rowBook
+  {
+    margin-top: 15px;
+  }
+  .rowKeyLoginMe
+  {
+    margin-top: 60px;
+  }
+  .keyCreateNewCustomer ,.keyLoginMe
+  {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 768px)
+{
+    .leftSector
+  {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    float: none;
+    padding-right: 0;
+  }
+  .rightSector
+  {
+    
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    float: none;
+    padding-right: 0;
+    padding-left: 0;  
+  }
+
+  .leftSector .plateForm
+  {
+    width: 100%;
+    padding:15px 25px 70px;
+  }
+  .plateCalculate
+  {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    float: none;
+    padding:15px 5px 70px;
+  }
+  .footer
+  {
+    padding-top: 50px;
+  }
+  .countInputs .col div
+  {
+    height: 30px;
+    width: 30px;
+  }
+  .spacedInputs .iconInput
+  {
+    width: 30px;
+    height: 30px;
+  }
+  .fileAndDateInputs .keyFile, .fileAndDateInputs .iconInput
+  {
+    width: 30px;
+    height: 30px;
+  }
+  .rowGo .keyGoCalculate
+  {
+    height: 30px;
+  }
+  .spacedInputs .textInput
+  {
+    font-size: 11px;
+    padding-top: 5px;
+    width: 85px;
+    height: 30px;
+  }
+  .fileAndDateInputs .textInput, .fileAndDateInputs .inputDateChoose
+  {
+    padding-top: 5px;
+    height: 30px;
+    font-size: 12px;
+    width:85px;
+    box-sizing: border-box;
+  }
+  .countInputs input
+  {
+    width: 55px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .rowGo .inputDiscountCode
+  {
+    height: 30px;
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  .plateCalculate .rowForm,.rowGo
+  {
+    max-width: 300px;
+  }
+    .bookHolste
+  {
+    background-image: none;
+    background-color: #fff;
+  }
+  .leftPaper
+  {
+    width: 100%;
+    margin:20px 0;
+    display: inline-block;
+    padding: 20px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.2)
+  }
+  .rightPaper
+  {
+    width: 100%;
+    margin:20px 0;
+    display: inline-block;
+    padding: 20px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.2)
+  }
+  .placeOrder h1
+  {
+    font-size: 21px;
+    margin-top: 20px;
+  }
+  .leftPaper h1 , .rightPaper h1
+  {
+    font-size: 21px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  .leftPaper .rowBook .labe , .rightPaper .rowBook .labe
+  {
+    padding-top: 5px;
+    font-size: 14px;
+    width: 40%;
+  }
+
+  .inputPlaceLeftPaper ,  .inputPlaceRightPaper
+  {
+    font-size: 14px;
+    width: 60%;
+  }
+  .leftPaper .rowBookAccept span
+  {
+    font-size: 12px;
+  }
+  .leftPaper .rowBook
+  {
+    margin-top: 10px;
+  }
+  .rightPaper .rowBook
+  {
+    margin-top: 15px;
+  }
+  .rowKeyLoginMe
+  {
+    margin-top: 60px;
+  }
+  .leftPaper .rowBook ,.rigthPaper .rowBook
+  {
+    padding-right: 20px;
+  }
+  .keyCreateNewCustomer
+  {
+    font-size: 21px;
+  }
+  .keyLoginMe
+  {
+    font-size: 21px;
+  }
+}

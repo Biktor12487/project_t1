@@ -1,0 +1,143 @@
+.section {
+  background-color: #ececec;
+}
+
+.tableOne .holsteTable {
+  width: 99%;
+  float: left;
+  clear: both;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #28a2ef;
+}
+
+.tableOne h1 {
+  font: 400 40px Roboto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.tableOne .row .col {
+  padding: 20px 0;
+  float: left;
+  width: 16.6%;
+  font: 400 18px Roboto;
+  color: #fff;
+  text-align: center;
+}
+
+.tableOne .holsteTable .row .col:hover {
+  background-color: grey;
+}
+
+.tableOne .firstRow .col {
+  font-family: Roboto;
+}
+
+.tableOne .holsteTable .firstRow .col:hover {
+  background-color: transparent;
+}
+
+.tableTwo .holsteTable {
+  width: 99%;
+  float: left;
+  clear: both;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #6bcdff;
+}
+
+.tableTwo h1 {
+  font: 400 40px Roboto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.tableTwo .row .col {
+  padding: 20px 0;
+  float: left;
+  width: 16.6%;
+  font: 400 18px Roboto;
+  color: #fff;
+  text-align: center;
+}
+
+.tableTwo .holsteTable .row .col:hover {
+  background-color: grey;
+}
+
+.tableTwo .firstRow .col {
+  font-family: Roboto;
+}
+
+.tableTwo .holsteTable .firstRow .col:hover {
+  background-color: transparent;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px )
+{
+
+}
+@media screen and (max-width: 992px) and (min-width: 768px )
+{
+  .tableOne .row .col
+  {
+    font-size: 15px;
+  }
+  .tableTwo .row .col
+  {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px)
+{
+   .tableOne .row .col
+  {
+    font-size: 12px;
+  }
+  .tableTwo .row .col
+  {
+    font-size: 12px;
+  }
+  .tableTwo .holsteTable
+  {
+    width: 100%;
+  }
+   .tableOne .holsteTable
+  {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 595px)
+{
+  .row
+  {
+    float: left;
+    width: 100%;
+  }
+  .tableOne .row .col
+  {
+    font-size: 12px;
+    overflow: scroll;
+  }
+  .tableTwo .row .col
+  {
+    font-size: 12px;
+    overflow: scroll;
+  } 
+    .tableOne .firstRow .col
+  {
+    font-size: 10px;
+  }
+  .tableTwo .firstRow .col
+  {
+    font-size: 10px;
+  }
+  .tableOne h1 , .tableTwo h1
+  {
+    font-size: 21px;
+  }
+  .footer
+  {
+    padding-top: 50px;
+  }
+} 
